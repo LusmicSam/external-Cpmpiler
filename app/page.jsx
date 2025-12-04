@@ -150,7 +150,7 @@ export default function Home() {
         languageId: languageIds[language] || 63 // Default to JS if not found
       };
 
-      const response = await fetch("http://localhost:3000/student/compile-external", {
+      const response = await fetch("https://g6y8h3p2kz.theeducode.com/student/compile-external", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
