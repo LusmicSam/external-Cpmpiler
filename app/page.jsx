@@ -401,13 +401,13 @@ export default function Home() {
               <History className="w-4 h-4" />
             </button>
 
-            <button
+            {/* <button
               onClick={handleShare}
               className="bg-card hover:bg-muted border border-border px-3 py-2 rounded flex items-center gap-2 text-sm font-medium transition-colors text-primary"
               title="Share Code"
             >
               <Share2 className="w-4 h-4" />
-            </button>
+            </button> */}
           </div>
 
           <div className="flex items-center gap-4 w-full sm:w-auto">
