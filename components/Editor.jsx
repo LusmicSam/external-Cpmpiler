@@ -174,6 +174,7 @@ export default function EditorComponent({
                             formatOnType: true,
                             formatOnPaste: true,
                             fontFamily: "'Fira Code', 'Cascadia Code', Consolas, monospace",
+                            mouseWheelZoom: true,
                         }}
                     />
                 )}
