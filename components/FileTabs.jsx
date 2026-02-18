@@ -86,7 +86,7 @@ export default function FileTabs({
     return (
         <div className="flex items-center justify-between w-full gap-2">
             {/* Scrollable Tabs Container */}
-            <div className="flex items-center gap-1 overflow-x-auto no-scrollbar flex-1">
+            <div className="flex items-center gap-1 overflow-x-auto custom-scrollbar flex-1 pb-1">
                 {files.map((file) => (
                     <div
                         key={file.id}
